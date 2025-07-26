@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Motion Alert Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Motion Audio Alert System</h1>
+  <button onclick="send('/toggle')">Toggle System</button>
+  <button onclick="send('/panic')">Toggle Panic</button>
+  <button onclick="send('/secret')">Secret Sound</button>
+  <button onclick="send('/mute')">Mute</button>
+  <button onclick="send('/restart')">Restart</button>
+  <br><br>
+  <input type="range" min="0" max="30" value="20" id="volSlider" oninput="changeVolume(this.value)">
+  <label for="volSlider">Volume</label>
+  <script src="script.js"></script>
+</body>
+</html>
