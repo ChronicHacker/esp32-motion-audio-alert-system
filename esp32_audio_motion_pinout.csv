@@ -6,3 +6,8 @@ DFPlayer VCC,5V,Power
 DFPlayer GND,GND,Ground
 Speaker +,SPK_1,Left speaker terminal
 Speaker -,SPK_2,Right speaker terminal
+
+
+
+
+TRY SWITCHING THE RX AND TX WIRES IF YOU'RE EXPERIENCING ANY ISSUES!!
